@@ -12,7 +12,6 @@ bringing up a virtual CAN bus, with no hardware required.
 ## Environment
 
 - OS: Kali Linux
-- (to be filled in as I go)
 
 ## Steps
 
