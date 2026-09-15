@@ -1,4 +1,4 @@
-# 02 - CAN Basics: Sniffing, Sending, and Logging
+# 02 - CAN Basics: Sniffing, Logging, and Replaying
 
 Now that vcan0 is live, this phase covers the core can-utils workflow:
 generating traffic, sniffing it, logging it, and spotting changing data.
