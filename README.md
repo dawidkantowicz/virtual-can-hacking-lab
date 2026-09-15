@@ -26,15 +26,15 @@ Full step-by-step setup lives in [docs/](docs/).
 ## Roadmap
 
 **Phase 1: Toolset and virtual CAN**
-- [ ] Set up the Linux environment
-- [ ] Install can-utils and python-can
-- [ ] Bring up a virtual CAN interface (vcan0)
-- [ ] Send and read the first CAN frames
+- [x] Set up the Linux environment
+- [x] Install can-utils and python-can
+- [x] Bring up a virtual CAN interface (vcan0)
+- [x] Send and read the first CAN frames
 
 **Phase 2: CAN fundamentals**
-- [ ] Understand CAN frame structure (ID, DLC, data)
-- [ ] Sniff, send, and log frames with candump and cansend
-- [ ] Write a Python script to send and read frames
+- [x] Understand CAN frame structure (ID, DLC, data)
+- [x] Sniff, send, and log frames with candump and cansend
+- [x] Write a Python script to send and read frames
 
 **Phase 3: ICSim**
 - [ ] Install and run ICSim and controls on vcan0
