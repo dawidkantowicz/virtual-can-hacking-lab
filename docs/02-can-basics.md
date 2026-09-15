@@ -125,3 +125,7 @@ now read and formatted by my own code.
   (apt python3-can / pip in a venv). Environment setup is half the battle.
 - vcan0 is a system interface and does not survive a reboot, so it has to be
   recreated after restarting.
+- For simply viewing traffic, candump is the better tool. The value of the
+Python version is as a foundation - once frames are in code, they can be
+filtered, decoded, automated, fuzzed, or used to craft targeted frames, which
+prebuilt tools can't do.
