@@ -94,7 +94,34 @@ because CAN frames carry no authentication. The receiver cannot tell a replayed
 frame from a genuine one.
 
 ### 4. Read frames with Python
-_Script and notes go here._
+
+Beyond the prebuilt tools, I wrote my own reader using `python-can` to program
+directly against the bus. Script: [`scripts/read_can.py`](../scripts/read_can.py)
+
+```python
+import can
+
+bus = can.interface.Bus(channel="vcan0", interface="socketcan")
+for msg in bus:
+    data = " ".join(f"{b:02X}" for b in msg.data)
+    print(f"ID: {msg.arbitration_id:03X}  [{msg.dlc}]  {data}")
+```
+
+Run it against live traffic:
+```bash
+python3 scripts/read_can.py     # terminal 1
+cangen vcan0 -v                 # terminal 2
+```
+
+The script printed frames in the same `ID [len] data` format as candump, but
+now read and formatted by my own code.
 
 ## What I learned
-_Real notes and any hiccups go here._
+
+- The capture -> replay loop is the foundational CAN attack: sniff traffic, then
+  replay it, and the ECU obeys because CAN frames have no authentication.
+- Logged captures include timestamps, which preserve timing for realistic replay.
+- Hit `ModuleNotFoundError` for python-can; fixed it by installing the library
+  (apt python3-can / pip in a venv). Environment setup is half the battle.
+- vcan0 is a system interface and does not survive a reboot, so it has to be
+  recreated after restarting.
