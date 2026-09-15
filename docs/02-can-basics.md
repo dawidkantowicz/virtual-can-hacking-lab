@@ -1,9 +1,6 @@
 # 02 - CAN Basics: Sniffing, Logging, and Replaying
 
-Now that vcan0 is live, this phase covers the core can-utils workflow:
-generating traffic, sniffing it, logging it, and spotting changing data.
-This is the foundation of every CAN attack: you have to read the bus before
-you can influence it.
+Now that vcan0 is live, this phase covers the core CAN workflow: generating traffic, sniffing and logging it, replaying it back onto the bus, and reading it with a Python script. This is the foundation of every CAN attack: you have to read the bus before you can influence it.
 
 ## Goal
 
