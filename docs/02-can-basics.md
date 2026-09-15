@@ -9,7 +9,6 @@ you can influence it.
 
 - Generate CAN traffic on vcan0
 - Sniff and log frames
-- Watch which bytes change with cansniffer
 - Read frames with a Python script (python-can)
 
 ## Steps
