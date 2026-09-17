@@ -55,3 +55,5 @@ the cluster obeyed a frame I crafted, because CAN has no authentication.
 - Honestly, this was the moment the whole thing became real for me - going from
   "it's just a mess" to finding and controlling a specific function on the bus in
   a matter of minutes. This is exactly the kind of work I want to do.
+
+  <img width="1278" height="698" alt="Screenshot 2026-09-17 184033" src="https://github.com/user-attachments/assets/29ae9777-0c23-4073-9fc0-8e5c1ec40762" />
