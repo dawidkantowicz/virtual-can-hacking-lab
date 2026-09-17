@@ -37,10 +37,10 @@ Full step-by-step setup lives in [docs/](docs/).
 - [x] Write a Python script to send and read frames
 
 **Phase 3: ICSim**
-- [ ] Install and run ICSim and controls on vcan0
-- [ ] Sniff live traffic and map it
-- [ ] Find the frames that control turn signals, speed, and doors
-- [ ] Replay captured frames and watch the cluster react
+- [x] Install and run ICSim and controls on vcan0
+- [x] Sniff live traffic and map it
+- [x] Find the frames that control turn signals, speed, and doors
+- [x] Replay captured frames and watch the cluster react
 
 **Phase 4: Analysis and tooling**
 - [ ] Use cansniffer to spot changing bytes
