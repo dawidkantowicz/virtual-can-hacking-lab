@@ -56,3 +56,7 @@ then try to pick.
 - Simulation mode only answers what it has learned or been configured for; the
   next step is Learning mode against realistic traffic for a fuller ECU.
 - Small hiccups: cansend needs full-byte data (even digit count)
+
+<img width="717" height="481" alt="image" src="https://github.com/user-attachments/assets/3435e856-d63c-4ccd-80db-3c8360dabdc1" />
+<img width="1273" height="1255" alt="image" src="https://github.com/user-attachments/assets/e8ade066-c816-4fdc-b61f-6f8b6ed8d327" />
+
