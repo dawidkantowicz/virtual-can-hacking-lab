@@ -48,7 +48,7 @@ Full step-by-step setup lives in [docs/](docs/).
 - [x] Read positive and negative responses (NRCs)
 
 **Phase 5: Building my own tooling**
-- [ ] Build a UDS decoder — translate raw frames into readable diagnostics
+- [ ] Build a UDS decoder - translate raw frames into readable diagnostics
 - [ ] Add live decoding from a candump stream
 - [ ] Document the methodology
 
