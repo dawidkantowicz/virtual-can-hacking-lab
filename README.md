@@ -42,14 +42,15 @@ Full step-by-step setup lives in [docs/](docs/).
 - [x] Find the frames that control turn signals, speed, and doors
 - [x] Replay captured frames and watch the cluster react
 
-**Phase 4: Analysis and tooling**
-- [ ] Use cansniffer to spot changing bytes
-- [ ] Build my own replay and simple fuzzing scripts
-- [ ] Document the methodology
+**Phase 4: UDS diagnostics**
+- [x] Learn UDS (ISO 14229) diagnostic services
+- [x] Explore UDS on a simulated ECU (UDSim)
+- [x] Read positive and negative responses (NRCs)
 
-**Phase 5: UDS basics**
-- [ ] Learn UDS (ISO 14229) diagnostic services
-- [ ] Explore UDS on the virtual setup
+**Phase 5: Building my own tooling**
+- [ ] Build a UDS decoder — translate raw frames into readable diagnostics
+- [ ] Add live decoding from a candump stream
+- [ ] Document the methodology
 
 **Phase 6: Toward hardware (future)**
 - [ ] Parts list (CANable adapter, instrument cluster)
