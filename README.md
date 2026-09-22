@@ -77,7 +77,7 @@ misuse.
 ## References
 
 - The Car Hacker's Handbook, Craig Smith
-- OpenGarages ICSim
+- OpenGarages ICSim and UDSim
 - can-utils (Linux SocketCAN tools)
 - CSS Electronics CAN bus guide
 
